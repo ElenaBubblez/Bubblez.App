@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Bubblez.App.MainPage">
+
+    <StackLayout>
+        <Button x:Name="ClientsPage"
+                Text="Clients"
+                FontSize="8"
+                Clicked="ClientsPage_Clicked"
+                WidthRequest="70" 
+                HeightRequest="60" 
+                BorderRadius="30" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"/>
+
+
+        <Button x:Name="AppointmentPage"
+                Text="Appointments"
+                FontSize="8"
+                Clicked="AppointmentPage_Clicked"
+                WidthRequest="70" 
+                HeightRequest="60" 
+                BorderRadius="30" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"/>
+
+        <Button x:Name="CalendarPage"
+                Text="Calendar"
+                FontSize="8"
+                Clicked="CalendarPage_Clicked"
+                WidthRequest="70" 
+                HeightRequest="60" 
+                BorderRadius="30" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"/>
+
+        <Button x:Name="ShoppingPage"
+                Text="Shopping List"
+                FontSize="8"
+                Clicked="ShoppingPage_Clicked"
+                WidthRequest="70" 
+                HeightRequest="60" 
+                BorderRadius="30" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"/>
+
+        <Button x:Name="PandEpage"
+                Text="Profits"
+                FontSize="8"
+                Clicked="PandEpage_Clicked"
+                WidthRequest="70" 
+                HeightRequest="60" 
+                BorderRadius="30" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"/>
+
+        <Button x:Name="InventoryPage"
+                Text="Inventory"
+                FontSize="8"
+                Clicked="InventoryPage_Clicked"
+                WidthRequest="70" 
+                HeightRequest="60" 
+                BorderRadius="30" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"/>
+
+    </StackLayout>
+
+</ContentPage>
